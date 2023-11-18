@@ -52,7 +52,7 @@ budget.put("/:id", (req, res, next) => {
   console.log(req.params);
   try {
     const id = Number(req.params.id); // if you destructure the id you cant convert into number
-    console.log(id);
+    //console.log(id);
     //let newId = Number(id);
     //budgetArray[id] = req.body;
     if (budgetArray[id]) {
